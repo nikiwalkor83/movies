@@ -1,0 +1,15 @@
+---
+title: "Movie Analysis"
+author: "Mikita Liohki"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| label: setup
+#| message: false
+library(tidyverse)
+
+movies <- read_csv("data/movies.csv")
+```
